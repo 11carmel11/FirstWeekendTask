@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Hind+Guntur|Sedgwick+Ave|Roboto');
 header {
-    font-size: 2em;    
+    font-size: 2em;
+    font-family: Roboto;    
 }
 a:link {
     color:burlywood
 }
-    #main-doc {
-        border: currentColor 5px solid;
-    
-    }
 
-#navbar {
+ #navbar {
     position: fixed;
     height:100vh;
     width: 50vh;
     background-color: lightslategray;
     left: 0px;
     bottom:0px;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
 }

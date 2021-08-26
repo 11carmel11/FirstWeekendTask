@@ -4,3 +4,10 @@ header {
 a:link {
     color:burlywood
 }
+#navbar{
+    position:fixed;
+    background-color: lightslategray;
+    top:0px;
+    width:100vh;
+    text-align: center;
+      }

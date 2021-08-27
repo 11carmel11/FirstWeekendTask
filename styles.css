@@ -4,20 +4,28 @@ header {
     font-family: Roboto;    
 }
 a:link {
-    color:burlywood
+    color:rgb(233, 198, 153)
+}
+body {
+    color:rgb(196, 137, 49)
 }
 
- #navbar {
-    position: fixed;
-    height:100vh;
-    width: 50vh;
-    background-color: lightslategray;
-    left: 0px;
-    bottom:0px;
-}
 #main-doc {
     position: absolute;
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
+}
+@media (min-width: 600px) {
+    #navbar {
+        position: fixed;
+        height:100vh;
+        width: 50vh;
+        background-color: lightslategray;
+        left: 0px;
+        bottom:0px;
+    }
+}
+.border {
+    border: 10px solid azure;
 }

@@ -41,3 +41,6 @@ body {
 .nav-link {
     font-family: Georgia;
 }
+.main-section {
+    display:block;
+}
